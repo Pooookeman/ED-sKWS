@@ -24,6 +24,7 @@ You can also continue training from a checkpoint
 
 ## Run experiments on SC-100 dataset
 Our proposed SC-100 dataset can be downloaded from https://drive.google.com/file/d/1FnP8m4sW7WeJFH75lvAzk-F-TXSEjlsY/view?usp=sharing
+
 The script for SC-100 dataset(coming soon) can be run from 'run_exp_100words.py', and run as the other speech recognition dataset.
 
     python run_exp_100words.py --model_type adLIF \
