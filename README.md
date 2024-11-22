@@ -23,14 +23,14 @@ You can also continue training from a checkpoint
         --start_epoch <LAST-EPOCH-OF-PREVIOUS-TRAINING>
 
 ## Run experiments on SC-100 dataset
-
+Our proposed SC-100 dataset can be downloaded from https://drive.google.com/file/d/1FnP8m4sW7WeJFH75lvAzk-F-TXSEjlsY/view?usp=sharing
 The script for SC-100 dataset(coming soon) can be run from 'run_exp_100words.py', and run as the other speech recognition dataset.
 
     python run_exp_100words.py --model_type adLIF \
-        --data_folder <PATH-TO-DATASET-FOLDER> --new_exp_folder <OUTPUT-PATH>
+        --data_folder <PATH-TO-SC-100-FOLDER> --new_exp_folder <OUTPUT-PATH>
 
 You can also continue training from a checkpoint
 
     python run_exp_100words.py --use_pretrained_model 1 --load_exp_folder <OUTPUT-PATH> \
-        --dataset_name sc --data_folder <PATH-TO-DATASET-FOLDER> \
+        --dataset_name sc --data_folder <PATH-TO-SC-100-FOLDER> \
         --start_epoch <LAST-EPOCH-OF-PREVIOUS-TRAINING>
